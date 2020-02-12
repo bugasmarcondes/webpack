@@ -14,3 +14,7 @@ yarn add -D webpack webpack-cli
 # 0002-asset-management
 
 yarn add -D style-loader css-loader
+  - carrega css dentro do js como um módulo
+
+yarn add -D file-loader
+  - carrega imagem
