@@ -1,4 +1,14 @@
+/* 3. carregando fontes (chrome deve ser woff2 e woff) */
+@font-face {
+    font-family: 'MyFont';
+    src: url('./Roboto-Light.woff2') format('woff2'),
+         url('./Roboto-Light.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
 .hello {
-  color: red;
-  background: url("./icon.png");
+    color: red;
+    background: url('./icon.png');
+    font-family: 'MyFont';
 }
